@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="{{url_for('static', filename = 'dist/css/output.css')}}">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <div class="all flex flex-row justify-around bg-[#252d37] text-white w-auto m-2 rounded-lg p-2">
+      <div class="one">
+           <nav class="pt-4">
+            <ul class="flex flex-row">
+                  <li><a class="px-4 font-serif text-red-400" href="#">Home</a></li>
+                  <li><a class="px-4 font-serif" href="#">About Us</a></li>
+            </ul>
+           </nav>
+      </div>
+      <div class="two pt-4">
+            <span class="bg-red-400 px-2 py-1 text-white rounded-full ml-2"><i class="fa fa-plus"></i></span>
+            <p class="pt-1 pr-8 font-light">Upload</p>
+      </div>
+      <div class="thre">
+            <nav class="pt-4">
+                  <ul class="flex flex-row">
+                        <li><a class="px-4 font-serif" href="{{url_for("profile")}}">Profile</a></li>
+                        <li><a class="font-serif bg-red-400 px-10 py-2 rounded-lg" href="#">Log out</a></li>
+                  </ul>
+                 </nav>
+      </div>
+
+    </div>
+
+
+
+
+
+    <!-- ............................Post desing................. -->
+
+
+    <div class="all_ bg-gray-50 shadow-md mt-10 m-auto pl-20 pr-4 pt-4 pb-4 w-1/2 ">
+      <div class="inside">
+            <h1 class="font-bold">UserName</h1>
+            <span class="text-sm font-thin ">Date</span>
+
+            <h2 class="pt-4 font-bold text-lg">Topic</h2>
+            <p class="w-72 text-gray-700 font-light pt-2">Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Doloribus commodi quas reprehenderit cum ipsa necessitatibus.</p>
+      
+
+            <div class="like_comment  flex flex-row mt-4 ">
+                  <div class="likes">
+                        <h1 class="font-bold text-lg">Like</h1>
+                        <p class="text-sm font-thin">200 likes</p>
+                  </div>
+                  <div class="comment6s ml-6">
+                        <h1 class="font-bold text-lg">Comment</h1>
+                        <p class="text-sm font-thin">122 comments</p>
+                  </div>
+            </div>
+            
+      </div>
+    </div>
+
+    
+
+<!-- .......... -->
+
+
+
+  
+</body>
+</html>
