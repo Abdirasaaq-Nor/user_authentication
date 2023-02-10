@@ -27,6 +27,7 @@ class Database:
 
 
 
+
 mydb = Database('localhost', 'root', '12345', ' user_autho')
 myDatabase = mydb.create_connection()
 
